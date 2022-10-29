@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./img/footer-logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Kion</title>
 </head>
 <body>
@@ -39,16 +40,16 @@
         <section class="first__section">
             <div class="container">
                 <div class="fs__block">
-                    <div class="fs__block--left">
+                    <div class="fs__block--left" data-aos="fade-right">
                         <h1 class="title">Complete cloud enablement has arrived.</h1>
                         <p>Oversee, secure, and scale your cloud with one solution.</p>
                         <button class="btn">Request Demo</button>
                     </div>
-                    <div class="fs__block--right">
+                    <div class="fs__block--right" data-aos="zoom-in">
                         <img src="./img/fs__bg.png" alt="">
                     </div>
                 </div>
-                <div class="fs__cards">
+                <div class="fs__cards" data-aos="fade-up">
                     <img src="./img/nasa.png" alt="">
                     <img src="./img/absolute.png" alt="">
                     <img src="./img/cdc.png" alt="">
@@ -59,12 +60,12 @@
         </section>
         <section class="product__section">
             <div class="container">
-                <div class="info">
+                <div class="info" data-aos="fade-right">
                     <h2 class="title">The Product</h1>
                     <p>Kion offers the only single platform approach to <span>cloud enablement</span>, transcending cloud management and cloud governance by offering all three pillars necessary for total cloud control.</p>
                     <button class="btn">More About the Product</button>
                 </div>
-                <div class="AO__box">
+                <div class="AO__box" data-aos="zoom-in">
                     <img src="./img/box_icon.png" alt="">
                     <h2>Automation & Orchestration</h1>
                     <p class="suptitle-2">Provision accounts, get enterprise-wide visibility, and fully integrate the cloud with your tech stack to automate the full cloud lifecycle.</p> 
@@ -74,8 +75,8 @@
         </section>
         <section class="results__section">
             <div class="container">
-                <h2 class="title-2">Our Results</h1>
-                <div class="results__info">
+                <h2 class="title-2" data-aos="fade-right">Our Results</h1>
+                <div class="results__info" data-aos="fade-up">
                     <div class="faster suptitle">
                         <h3>10x</h3>
                         <p class="results__suptitle">Faster cloud account setup and provisioning</p>
@@ -93,7 +94,7 @@
         </section>
         <section class="difference__section">
             <div class="container">
-                <div class="dif__block--left">
+                <div class="dif__block--left" data-aos="fade-right">
                     <div class="dif__block--left-1">
                         <h2 class="title-2">The Kion Difference</h1>
                         <p class="suptitle-2">We deliver more than just the features to manage and govern your cloud. Kion gives you a comprehensive solution for your cloud to enable your organization to achieve more.</p>
@@ -107,12 +108,12 @@
                     </div>
                     <button class="btn-2">Learn More</button>
                 </div>
-                <div class="dif__block--right">
+                <div class="dif__block--right" data-aos="zoom-in">
                     <img src="./img/kion__video.png" alt="">
                 </div>
             </div>
         </section>
-        <section class="for__section">
+        <section class="for__section" data-aos="fade-up">
             <div class="container">
                 <h2 class="title-2">Built For</h2>
                 <div class="for__section-cards">
@@ -123,7 +124,7 @@
             </div>
         </section>
         <section class="start__section">
-            <div class="container">
+            <div class="container" data-aos="fade-right">
                 <h2 class="title-2">Start your cloud enablement journey.</h2>
                 <p>Request a demo today,</p>
                 <button class="btn">Request Demo</button>
@@ -133,7 +134,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__top">
-                <div class="footer__top--left">
+                <div class="footer__top--left" data-aos="fade-right">
                     <ul class="ftl__list">
                         <li class="ftl__list-heading">Our Product</li>
                         <li>
@@ -156,7 +157,7 @@
                     </ul>
                     <button class="ftl-button btn">Schedule Demo</button>
                 </div>
-                <div class="footer__top--right">
+                <div class="footer__top--right" data-aos="zoom-in">
                     <div class="ftr__block">
                         <ul class="ftr__list">
                             <li class="ftl__list-heading">Resources</li>
@@ -207,4 +208,8 @@
         </div>
     </footer>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
